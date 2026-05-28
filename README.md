@@ -25,7 +25,10 @@ spec:
   sourceNamespaces:
     - '*'
 ```
-
+apply it
+```
+kubectl apply -f yamls/my-project.yaml
+```
 
 
 
