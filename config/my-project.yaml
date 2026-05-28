@@ -6,7 +6,7 @@ metadata:
 spec:
   description: Allow access to a specific Git repository and branch
   sourceRepos:
-    - https://github.com/rm13rotem/argo-gitops.git
+    - https://github.com/rm13rotem/argo_gitops.git
     - https://github.com/rm13rotem/devops_4.git
   destinations:
     - namespace: '*'
