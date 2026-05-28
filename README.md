@@ -2,12 +2,12 @@
 a git repository for handling the argocd
 
 
-#Lab 1 - create project:
+# Lab 1 - create project:
 
 1. Create git repo named gitops
 2. Create new project in argocd and connect it to your gitops repo
 
-##Example project yaml 
+## Example project yaml 
 
 ```
 apiVersion: argoproj.io/v1alpha1
@@ -30,7 +30,7 @@ spec:
 
 
 
-#Lab 2  - create Application:
+# Lab 2  - create Application:
 
 
 Create new application using Yaml
@@ -63,11 +63,11 @@ spec:
 
 
 
-#Lab 3 - using Helm
+# Lab 3 - using Helm
 
-Use this example yaml:
+1. Use this example yaml:
 https://github.com/elevy99927/Jenkins-k8s/blob/main/Part4-CICD/04-ArgoCD/yamls/demo-app.yaml
-Task 1: Create application in ArgoCD using the Application CRD.
+2. Task 1: Create application in ArgoCD using the Application CRD.
 
  source:
     repoURL: https://stefanprodan.github.io/podinfo
