@@ -1,10 +1,10 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: app1-k8s-dev
+  name: app2-k8s-qa
   namespace: argocd
 spec:
-  project: app1-project
+  project: app2-project
   source:
     repoURL: https://github.com/rm13rotem/argo_gitops.git
     path: .
