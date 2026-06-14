@@ -23,7 +23,7 @@ metadata:
   name: my-app
 
 spec:
-  type: NodePort
+  type: ClusterIP
 
   selector:
     app: machine-manager
@@ -31,7 +31,7 @@ spec:
   ports:
     - port: 5001
       targetPort: 5001
-      nodePort: 30001
+      nodePort: 
 
 ---
 # Source: machine-manager/templates/deployment.yaml
